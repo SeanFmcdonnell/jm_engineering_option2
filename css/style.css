@@ -2,7 +2,7 @@
 ------------------------------------
   JM Enginnering & Associates
   Version: 1.0
- ------------------------------------ 
+ ------------------------------------
  ====================================*/
 
 
@@ -62,7 +62,7 @@ p {
 }
 
 img {
-	max-width: 100%;
+	max-width: 70%;
 }
 
 input:focus,
@@ -492,7 +492,7 @@ ol {
 	content: "";
 	width: 2px;
 	height: 0;
-	left: 50%;
+	right: 50%;
 	margin-left: 1px;
 	top: 0;
 	background: #baff00;
@@ -1954,12 +1954,13 @@ ol {
 	}
 	.nav-menu ul li a {
 		display: block;
+		text-align: right;
 		padding: 16px 21px;
 		border-bottom: 1px solid #202020;
 		margin-right: 0;
 	}
 	.nav-menu ul li a:after {
-		left: 20px;
+		right: 20px;
 	}
 	.nav-menu ul li.active>a:after,
 	.nav-menu ul li a:hover:after {
@@ -2066,7 +2067,7 @@ ol {
 /* small mobile :320px. */
 @media only screen and (max-width: 479px) {
 	.logo-area {
-		padding: 20px 30px 30px;
+		padding: 10px 15px 10px;
 	}
 	.header-area {
 		background: #121212;
